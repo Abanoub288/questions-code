@@ -1,0 +1,14 @@
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand btn bg-info fs-5 mx-2">Questions</a>
+    <div>
+      <button class="btn btn-outline-info fs-5" (click)="langAr()" >عربى</button>
+      <button class="btn btn-outline-info fs-5 mx-2" (click)="langEn()" >English</button>
+
+      <button class="btn btn-outline-info fs-5" (click)="toggleDarkMode()">
+        {{ isDarkMode ? 'Light Mode' : 'Dark Mode' }}
+      </button>
+    </div>
+  </div>
+</nav>
+
